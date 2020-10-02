@@ -1,0 +1,16 @@
+title: Business soletraders and partnerships
+description: about sole trader and partnerships
+template:
+  repo: business-soletraders-and-partnerships-template
+  name: business-soletraders-and-partnerships
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
